@@ -1,3 +1,5 @@
 import math
 print math.sin(math.pi)
-print dir()
+while 1:
+	print 1
+	break
