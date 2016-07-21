@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<data>
+    <srcip val="10.0.0.1">
+        <srcport val="80">
+			<dstip val="10.0.0.2">
+				<dstport val="80">A</dstport>
+			</dstip>
+			<dstip val="10.0.0.3">
+				<dstport val="*">A</dstport>
+			</dstip>
+        </srcport>
+        <srcport val="443">
+			<dstip val="10.0.0.5">
+				<dstport val="443"></dstport>
+			</dstip>
+        </srcport>        
+    </srcip>
+    <srcip val="10.0.0.2">
+        <srcport val="80">
+			<dstip val="10.0.0.1">
+				<dstport val="80">A</dstport>
+			</dstip>
+			<dstip val="10.0.0.3">
+				<dstport val="*">A</dstport>
+			</dstip>
+        </srcport>
+        <srcport val="443">
+			<dstip val="10.0.0.1">
+				<dstport val="443">D</dstport>
+			</dstip>
+        </srcport>        
+    </srcip>
+</data>
